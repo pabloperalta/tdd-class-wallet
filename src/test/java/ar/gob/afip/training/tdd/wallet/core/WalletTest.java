@@ -1,6 +1,9 @@
-import ar.gob.afip.training.tdd.wallet.core.Wallet;
+package ar.gob.afip.training.tdd.wallet.core;
+
 import ar.gob.afip.training.tdd.wallet.core.exception.WalletBusinessException;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
 
