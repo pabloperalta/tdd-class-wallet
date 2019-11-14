@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
 
+/**
+ * Test class
+ */
 public class WalletTest {
 
     private Wallet wallet;
