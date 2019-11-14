@@ -1,0 +1,11 @@
+dist: trusty
+
+addons:
+  sonarcloud:
+    organization: "pabloperalta"
+    token:
+      secure: "14b73006bce28093b090f28f032a20937ffa888c" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
